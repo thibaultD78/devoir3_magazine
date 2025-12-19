@@ -9,6 +9,7 @@ open module sio.devoir2magazine {
     requires jakarta.persistence;
     requires org.hibernate.orm.core;
     requires spring.data.commons;
+    requires javafx.base;
     exports sio.devoir2magazine;
     exports sio.devoir2magazine.controllers;
 }
